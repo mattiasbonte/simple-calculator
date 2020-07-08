@@ -14,22 +14,24 @@
 
   <body class="box-border mx-auto">
     <header class="text-center m-10">Simple Calculator Input</header>
-    <main class="text-center bg-gray-200 rounded-lg p-5 max-w-xl mx-auto shadow-lg">
-      <fieldset class="flex flex-row flex-wrap justify-center align-middle">
-        <div class="text-center mx-2">
-          <label for="input1" class="block">Number1</label>
+    <main
+      class="text-center bg-gray-200 rounded-lg p-5 max-w-xl mx-auto shadow-lg"
+    >
+      <fieldset class="flex flex-row flex-wrap justify-center items-end">
+        <div class="mx-2">
+          <label for="input1" class="block text-xs">Number1</label>
           <input
-            class="bg-blue-400 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md"
-            placeholder="Number 1"
+            class="bg-blue-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-32 text-center shadow-md"
+            placeholder="input"
             type="number"
             id="input1"
           />
         </div>
 
-        <div class="text-center mx-2">
-          <label for="select" class="block">Operator</label>
+        <div class="mx-2">
+          <!-- <label for="select" class="block text-xs">Operator</label> -->
           <select
-            class="bg-red-400 text-white rounded-lg py-1 px-2 my-2 w-12 text-center shadow-md"
+            class="bg-orange-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-12 text-center shadow-md border-2 border-orange-400 "
             id="select"
             title="Select the mathermatical operator you want to use to calculate"
           >
@@ -43,21 +45,21 @@
         </div>
 
         <div class="mx-2">
-          <label for="input2" class="block">Number2</label>
+          <label for="input2" class="block text-xs">Number2</label>
           <input
-            class="bg-blue-400 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md"
-            placeholder="Number 2"
+            class="bg-blue-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md"
+            placeholder="input"
             id="input2"
             type="number"
           />
         </div>
 
-        <p class="self-end py-1 px-2 my-2 w-8">=</p>
+        <p class="self-end py-1 px-1 my-2 w-8">=</p>
 
         <div class="mx-2">
-          <label for="output" class="block">Output</label>
+          <label for="output" class="block text-xs">Output</label>
           <input
-            class="bg-green-400 rounded-lg py-1 px-2 my-2 w-32 text-center shadow-md"
+            class="bg-green-400 font-bold placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md"
             placeholder="Result"
             id="output"
             type="number"

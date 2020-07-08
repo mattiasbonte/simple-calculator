@@ -3,12 +3,9 @@
         "browser": true,
         "es2020": true
     },
-    "extends": [
-        "standard"
-    ],
+    "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 11,
-        "sourceType": "module"
+        "ecmaVersion": 11
     },
     "rules": {
     }

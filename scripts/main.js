@@ -14,23 +14,32 @@ function calculate() {
   let inp1 = Number(input1.value);
   let sel = select.value;
   let inp2 = Number(input2.value);
-  let out;
+  let newOut;
 
   if (sel === '+') {
-    out = inp1 + inp2;
-    output.value = out.toString();
+    newOut = inp1 + inp2;
+    output.value = newOut.toString();
   } else if (sel === '-') {
-    out = inp1 - inp2;
-    output.value = out.toString();
+    newOut = inp1 - inp2;
+    output.value = newOut.toString();
   } else if (sel === '*') {
-    out = inp1 * inp2;
-    output.value = out.toString();
+    newOut = inp1 * inp2;
+    output.value = newOut.toString();
   } else if (sel === '/') {
-    out = (inp1 / inp2).toFixed(2);
-    output.value = out.toString();
+    newOut = (inp1 / inp2).toFixed(2);
+    output.value = newOut.toString();
   } else {
     console.log('you broke it');
   }
+
+  // Error handling
+  if (output.value === 'Infinity') {
+    output.value = 'N/A';
+  }
+  
+  /* if (isNaN(output.value)) {
+    output.value = 'N/A NAN';
+  } */
 }
 
 // Event Listeners

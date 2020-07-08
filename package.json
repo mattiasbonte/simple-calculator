@@ -26,6 +26,7 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"

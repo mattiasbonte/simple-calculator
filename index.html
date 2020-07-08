@@ -19,9 +19,9 @@
     >
       <fieldset class="flex flex-row flex-wrap justify-center items-end">
         <div class="mx-2">
-          <label for="input1" class="block text-xs">Number1</label>
+          <label for="input1" class="block text-xs pb-2">Number1</label>
           <input
-            class="bg-blue-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-32 text-center shadow-md"
+            class="js-input1 bg-blue-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md appearance-none focus:outline-none focus:shadow-outline leading-tight border border-white hover:border-black"
             placeholder="input"
             type="number"
             id="input1"
@@ -31,7 +31,7 @@
         <div class="mx-2">
           <!-- <label for="select" class="block text-xs">Operator</label> -->
           <select
-            class="bg-orange-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-12 text-center shadow-md border-2 border-orange-400 "
+            class="js-select bg-orange-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-10 text-center shadow-md appearance-none focus:outline-none focus:shadow-outline leading-tight border border-white hover:border-black"
             id="select"
             title="Select the mathermatical operator you want to use to calculate"
           >
@@ -45,24 +45,23 @@
         </div>
 
         <div class="mx-2">
-          <label for="input2" class="block text-xs">Number2</label>
+          <label for="input2" class="block text-xs pb-2">Number2</label>
           <input
-            class="bg-blue-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md"
+            class="js-input2 bg-blue-400 text-white placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md appearance-none focus:outline-none focus:shadow-outline leading-tight border border-white hover:border-black"
             placeholder="input"
             id="input2"
             type="number"
           />
         </div>
 
-        <p class="self-end py-1 px-1 my-2 w-8">=</p>
+        <p class="js-equal self-end py-1 px-1 mx-5 my-2 w-8 rounded-lg text-center shadow-md appearance-none focus:outline-none focus:shadow-outline leading-tight border border-white hover:bg-green-400 hover:border-green-500"">=</p>
 
         <div class="mx-2">
-          <label for="output" class="block text-xs">Output</label>
+          <label for="output" class="block text-xs pb-2">Output</label>
           <input
-            class="bg-green-400 font-bold placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md"
-            placeholder="Result"
+            class="js-output bg-green-400 placeholder-gray-700 rounded-lg py-1 px-2 my-2 w-24 text-center shadow-md appearance-none focus:outline-none focus:shadow-outline leading-tight border border-black"
             id="output"
-            type="number"
+            type="text"
             disabled
           />
         </div>

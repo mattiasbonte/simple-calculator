@@ -7,3 +7,17 @@
 
 #EXCLUDES
 node_modules/
+package.json
+package-lock.json
+
+#ESLINT
+package.json
+package-lock.json
+.eslintrc.json
+
+#TAILWIND
+package.json
+package-lock.json
+postcss.config.js
+tailwind.config.js
+styles/tailwind.css

@@ -6,7 +6,7 @@ _[Assigment](https://github.com/becodeorg/gnt-yu-3-21/blob/future/calculator/2.T
 
 # Check My Results Online 👀
 
-- [**Calculator**](https://wisecoding.github.io/simple-calculator/)
+- [**Calculator**](https://mattiasbonte.github.io/simple-calculator/)
 
 # Built with 🛠
 
